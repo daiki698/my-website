@@ -196,7 +196,7 @@ header  .center a{
    background-repeat: no-repeat;
    background-position: right top;
    background-size: 105px;
-   margin-top: 10px;
+   transform: translate(0,-30px);
 }
 
 .center2 :first-child{
@@ -232,7 +232,7 @@ header  .center a{
 }
 
 .right2{
-    margin-left: 120px;
+    margin-left: 150px;
     margin-top: 100px;
      background-image: url(/img/名称未設定-38.webp);
     background-repeat: no-repeat;
@@ -1111,7 +1111,7 @@ textarea {
 .hamburger span {
   width: 100%;
   height: 1px;
-  background-color: #59bdbd;
+  background-color: #39a7b8;
   border-radius: 2px;
   transition: all 0.3s linear;
   display: block;
@@ -1181,13 +1181,27 @@ span:nth-child(2) {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 25vh;
   height: 100vh;
   background-color: rgb(38, 146, 160);
   z-index: 999;
   padding: 2rem;
   box-sizing: border-box;
-  opacity: 0.7;
+  opacity: 0.9;
+  font-size: 30px;
+  border-radius: 5px;
+  
+
+}
+.mobile-nav{
+  text-align: center;
+}
+.mobile-nav li{
+  font-size: 15px;
+   color: #eeece3;
+   font-weight: bolder;
+  
+  
 }
 
 /* ハンバーガーがクリックされたときに表示 */
@@ -1277,15 +1291,20 @@ span:nth-child(2) {
     .center2{
        width: 100%;
        margin: 0 auto;
-       margin-top: 70px;
+       margin-top: 50px;
         transform: translate(-35px,0);
     }
     
     .center2 :first-child{
-      margin-left: 17px;
-    }
-     .center :nth-child(2) {
+      margin-left: 25px;
       
+      width: 30vh;
+      
+    }
+     .center2 :nth-child(2) {
+      transform: translate(0,-20px);
+      height: 40vh;
+     
      }
      .insta,.insta img{
       transform: translate(0,-8px);
@@ -1297,13 +1316,20 @@ span:nth-child(2) {
       white-space: nowrap;
         margin-right: 10px;
       font-size: 16px;
-      margin-left: 20px;
+      margin-left: 15px;
       background-position: right top;
-      transform: translate(-9px,-30px);
+      transform: translate(25px,-30px);
+      text-align: left;
+      margin-top: 10px;
+      line-height: 1.6;
+      letter-spacing: 0;
      }
      
     .left2{
         display: none;
+    }
+    .right2{
+      display: none;
     }
     #mv{
         margin: 0 auto;
@@ -1327,50 +1353,89 @@ span:nth-child(2) {
     .insta img{
         translate: 220px;
     }
+.maru{
+  text-emphasis: left;
+}
 .maru h1{
-  font-size: 22px;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 40px;
+  font-weight: bolder;
 }
 .maru p{
         
-        font-size: 15px;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 40px;
+        line-height: 2.5;
+}
+.tennai {
+  display: none;
 }
 .tennai2 {
-  display: flex;
-  justify-content: space-around;
-  width: 500px;
+  transform: translate(-40px,0px);
+    
+  
+  width: 50vh;
+  
 }
 .tennai2 :nth-child(2){
-    width: 120%;
+    width: 50vh;
+    margin-right: 30px;
+    transform: translate(35px,0px);
+    
 }
 .tennai2 :nth-child(1){
-    width: 120%;
+    width: 50vh;
+    display: none;
 }
 .tennai2 :nth-child(3){
-    width: 120%;
+    width: 50vh;
+    margin-right: 30px;
+    
 }
 .tennai2 img{
   height: 100px;
 }
 .set p{
   white-space: nowrap;
-  padding: 3px;
+  padding: 2px;
   padding-left: 7px;
+  font-size: 14px;
+   text-align: left;
+  display: none;
 }
+
 .recommend h3{
   white-space: nowrap;
-  font-size: 20px;
+  font-size: 18px;
+ 
+}
+.recommend :nth-child(9){
+  display: none;
+}
+.concept2{
+  margin-left: 40px;
 }
 .concept2 h2{
-  font-size: 20px;
+  font-size: 16.5px;
   white-space: nowrap;
+  font-weight: bolder;
+  text-align: left;
 }
 .addicted h3{
   white-space: nowrap;
-   font-size: 20px;
+   font-size: 18px;
+}
+.addicted :nth-child(9){
+  display: none;
 }
 .jackets h3{
    white-space: nowrap;
-   font-size: 20px;
+   font-size: 18px;
+}
+.jackets :nth-child(9){
+  display: none;
 }
 
 .img-box img{
@@ -1386,10 +1451,10 @@ span:nth-child(2) {
   position: fixed;
   bottom: 0px;
   
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
   z-index: 99;
-  transform: translate(0,-10px);
+  transform: translate(60px,-10px);
   
   
 }
@@ -1417,10 +1482,18 @@ span:nth-child(2) {
 .campaign  span{
  display: none;
 }
+.campaign h4{
+  font-size: 18px;
+  font-weight: bolder;
+
+}
 .campaign  p{
   line-height: 1.3;
   white-space: wrap;
   font-size: 14px;
+  display: none;
+  
+  
   
 }
 .coupon{
@@ -1447,7 +1520,7 @@ span:nth-child(2) {
   margin: 0 auto;
 }
 .recommend img{
-  height: 90px;
+  height: 95px;
   
 }
 .recommend div :first-child{
@@ -1492,7 +1565,7 @@ span:nth-child(2) {
   margin: 0 auto;
 }
 .addicted  img{
-  height: 90px;
+  height: 95px;
   
 }
 .addicted  div :first-child{
@@ -1538,7 +1611,7 @@ span:nth-child(2) {
   margin: 0 auto;
 }
 .jackets  img{
-  height: 90px;
+  height: 95px;
   
 }
 .jackets  div :first-child{
@@ -1570,3 +1643,8 @@ span:nth-child(2) {
   transform: translate(90px);
 }
   }
+footer p{
+  text-align: left;
+  margin-left: 50px;
+  font-size: 13px;
+}
