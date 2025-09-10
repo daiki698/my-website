@@ -1372,6 +1372,7 @@ span:nth-child(2) {
 .tennai {
   display: none;
 }
+
 .tennai2 {
   transform: translate(-40px,0px);
     
@@ -1380,22 +1381,23 @@ span:nth-child(2) {
   
 }
 .tennai2 :nth-child(2){
-    width: 50vh;
-    margin-right: 30px;
+    width: 30vh;
+    margin-right: 20px;
     transform: translate(35px,0px);
+    
     
 }
 .tennai2 :nth-child(1){
-    width: 50vh;
+    width: 40vh;
     display: none;
 }
 .tennai2 :nth-child(3){
-    width: 50vh;
+    width: 16vh;
     margin-right: 30px;
-    
+    height: 15vh;
 }
 .tennai2 img{
-  height: 100px;
+  height: 200px;
 }
 .set p{
   white-space: nowrap;
